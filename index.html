@@ -10,6 +10,8 @@
     <header class="navbar">
         <a href="#home" class="logo">Naafe</a>
 
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+
         <nav class="nav-links">
             <a href="#products">Products</a>
             <a href="#transformations">AI Transformations</a>
@@ -21,7 +23,49 @@
         <div class="nav-buttons">
             <a href="#" class="btn btn-outline">Sign in</a>
             <a href="#contact" class="btn btn-primary">Book Consultation</a>
+        </div>
     </header>
+
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="hero-tag">AI-powered security operations</p>
+            <h1>Spot threats faster and respond before they spread</h1>
+            <p class="hero-desc">
+                Collect alerts from every system in one place, let AI filter out the noise, and help your security team respond faster to the threats that matter most.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Book Consultation</a>
+                <a href="#products" class="btn btn-outline">Explore Products</a>
+        </div>
+    </div>
+
+    <div class="hero-panel">
+        <div class="panel-header">
+            <span class="panel-title">Live Event Stream</span>
+            <span class="panel-status">● Live</span>
+        </div>
+
+        <p class="panel-count"><span id="eventCount">12,480</span> events / sec</p>
+
+        <ul class="event-list">
+            <li>
+                <span class="event-time">10:42:01</span>
+                <span class="event-name">Login from new location</span>
+                <span class="event-level low">Low</span>
+            </li>
+            <li>
+    <span class="event-time">10:42:03</span>
+    <span class="event-name">Unusual file download</span>
+    <span class="event-level medium">Medium</span>
+</li>
+            <li>
+                <span class="event-time">10:42:06</span>
+                <span class="event-name">Blocked connection attempt</span>
+                <span class="event-level high">High</span>
+            </li>
+        </ul>
+    </div>
+    </section>
     <script src="js/script.js"></script>
 </body>
 </html>
